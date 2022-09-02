@@ -4,13 +4,15 @@ const brands = require("./data/brands");
 const itemTypes = require("./data/itemTypes");
 const profile = require("./data/profile");
 const Products = require("./data/Products")
+const todos = require("./data/todo")
 module.exports = {
   items,
   tags,
   brands,
   itemTypes,
   profile,
-  Products
+  Products,
+  todos
 }
 
 
